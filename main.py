@@ -8,8 +8,8 @@ def decimaltobinary():
     return binary_num
 num = int(input('Enter 1 for Binary to decimal conversion Enter 2 for Decimal to Binary conversion: \n'))
 if num == 1:
-      print('Decimal conversion of the binary number is:', binarytodecimal())
+      print('Decimal: ',num ,':', binarytodecimal())
 elif num == 2:
-      print('Binary represntation of the decimal number is:', decimaltobinary())
+      print('Binary:' , decimaltobinary())
 else:
       print('Invalid choice')
